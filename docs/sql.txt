@@ -1,0 +1,93 @@
+SQL Structure for the database:
+
+This is written for mySQL and represents the Minimum viable product database.
+
+Subscriber Table:
+
+CREATE TABLE subscriber (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR (50) NOT NULL,
+    handle VARCHAR(50) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    password VARCHAR (255) NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (id)
+);
+
+Post Table:
+
+CREATE TABLE post(
+    id INT NOT NULL AUTO_INCREMENT,  
+    subscriber_id INT NOT NULL,
+    body VARCHAR (800) NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    upvote_count INT, 
+    INDEX post_ix_sunscriber_id(subscriber_id),
+    PRIMARY KEY (id),
+    CONSTRAINT post_fk_subscriber_id FOREIGN KEY (subscriber_id)  
+    REFERENCES subscriber(id)  
+    ON DELETE CASCADE  
+    ON UPDATE CASCADE
+ );
+
+
+
+Reply table:
+
+CREATE TABLE reply (  
+  id INT NOT NULL AUTO_INCREMENT,  
+  post_id INT NOT NULL,  
+  body varchar(800) NOT NULL,  
+  subscriber_id INT NOT NULL,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  upvote_count INT, 
+  INDEX reply_ix_post_id(post_id),
+  INDEX reply_ix_subscriber_id(subscriber_id),
+  PRIMARY KEY (id),
+  CONSTRAINT reply_fk_post_id FOREIGN KEY (post_id)  
+  REFERENCES post(id)  
+  ON DELETE CASCADE  
+  ON UPDATE CASCADE,
+  CONSTRAINT reply_fk_subscriber_id FOREIGN KEY (subscriber_id)  
+  REFERENCES subscriber(id)  
+  ON DELETE CASCADE  
+  ON UPDATE CASCADE
+); 
+CREATE TABLE post_upvote (  
+  id INT NOT NULL AUTO_INCREMENT,  
+  post_id INT NOT NULL,  
+  subscriber_id INT NOT NULL,
+  INDEX post_upvote_ix_post_id(post_id),
+  INDEX post_upvote_ix_subscriber_id(subscriber_id),
+  PRIMARY KEY (id),
+  CONSTRAINT post_upvote_fk_post_id FOREIGN KEY (post_id)  
+  REFERENCES post(id),
+  CONSTRAINT post_upvote_fk_subscriber_id FOREIGN KEY (subscriber_id)  
+  REFERENCES subscriber(id)  
+  
+); 
+CREATE TABLE reply_upvote (  
+  id INT NOT NULL AUTO_INCREMENT,  
+  reply_id INT NOT NULL,  
+  subscriber_id INT NOT NULL,
+  INDEX reply_upvote_ix_reply_id(reply_id),
+  INDEX reply_upvote_ix_subscriber_id(subscriber_id),
+  PRIMARY KEY (id),
+  CONSTRAINT reply_upvote_fk_post_id FOREIGN KEY (reply_id)  
+  REFERENCES reply(id)  
+  ON DELETE CASCADE  
+  ON UPDATE CASCADE,
+  CONSTRAINT reply_upvote_fk_subscriber_id FOREIGN KEY (subscriber_id)  
+  REFERENCES subscriber(id)  
+  ON DELETE CASCADE  
+  ON UPDATE CASCADE
+); 
+//manually add a post
+INSERT INTO `post`(`subscriber_id`, `body`, `upvote_count`) VALUES (1, "Hello, this is the first post ever on confab", 0);
+INSERT INTO `post`(`subscriber_id`, `body`, `upvote_count`) VALUES (2, "Hello, this is the second post ever on confab", 0);
+//manually insert an upvote
+INSERT INTO `post_upvote`(`post_id`, `subscriber_id`) VALUES (1,2)
+INSERT INTO `post_upvote`(`post_id`, `subscriber_id`) VALUES (2,1)
+
+//manually insert a reply
+INSERT INTO `reply`( `post_id`, `body`, `subscriber_id` ) VALUES (2,"this is a test reply", 1)

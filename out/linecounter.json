@@ -1,0 +1,453 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "c:\\xampp\\htdocs\\confab",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2020-10-15 11:16:51",
+            "filesum": 64,
+            "codesum": 2009,
+            "commentsum": 553,
+            "blanksum": 402,
+            "statistics": {
+                ".js": {
+                    "code": 147,
+                    "comment": 163,
+                    "blank": 64
+                },
+                ".php": {
+                    "code": 1287,
+                    "comment": 377,
+                    "blank": 295
+                },
+                ".css": {
+                    "code": 426,
+                    "comment": 10,
+                    "blank": 29
+                },
+                ".svg": {
+                    "code": 40,
+                    "comment": 0,
+                    "blank": 3
+                },
+                "": {
+                    "code": 14,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".txt": {
+                    "code": 79,
+                    "comment": 3,
+                    "blank": 11
+                },
+                ".json": {
+                    "code": 16,
+                    "comment": 0,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": ".htaccess"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "app\\.htaccess"
+                },
+                {
+                    "blank": 5,
+                    "code": 6,
+                    "comment": 3,
+                    "filename": "app\\bootstrap.php"
+                },
+                {
+                    "blank": 1,
+                    "code": 9,
+                    "comment": 4,
+                    "filename": "app\\config\\config.php"
+                },
+                {
+                    "blank": 7,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "app\\controllers\\Pages.php"
+                },
+                {
+                    "blank": 25,
+                    "code": 159,
+                    "comment": 49,
+                    "filename": "app\\controllers\\Posts.php"
+                },
+                {
+                    "blank": 25,
+                    "code": 174,
+                    "comment": 43,
+                    "filename": "app\\controllers\\Users.php"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "app\\helpers\\logout.php"
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "app\\helpers\\sessions.php"
+                },
+                {
+                    "blank": 11,
+                    "code": 28,
+                    "comment": 8,
+                    "filename": "app\\libraries\\Controller.php"
+                },
+                {
+                    "blank": 11,
+                    "code": 33,
+                    "comment": 13,
+                    "filename": "app\\libraries\\Core.php"
+                },
+                {
+                    "blank": 16,
+                    "code": 67,
+                    "comment": 7,
+                    "filename": "app\\libraries\\Database.php"
+                },
+                {
+                    "blank": 64,
+                    "code": 184,
+                    "comment": 194,
+                    "filename": "app\\libraries\\flashmessages.php"
+                },
+                {
+                    "blank": 24,
+                    "code": 106,
+                    "comment": 10,
+                    "filename": "app\\models\\Post.php"
+                },
+                {
+                    "blank": 24,
+                    "code": 126,
+                    "comment": 21,
+                    "filename": "app\\models\\User.php"
+                },
+                {
+                    "filename": "app\\uploads\\5f7482b88552d9.23492281.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\uploads\\5f74ba4b70f526.97269573.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\uploads\\5f74bb4e361111.73658412.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\uploads\\5f74bc019f1407.16829922.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\uploads\\5f74bd7dc13c18.81407232.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 4,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "app\\views\\inc\\footer.php"
+                },
+                {
+                    "blank": 9,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "app\\views\\inc\\header.php"
+                },
+                {
+                    "blank": 9,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "app\\views\\inc\\headerlogin.php"
+                },
+                {
+                    "blank": 5,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "app\\views\\pages\\index.php"
+                },
+                {
+                    "blank": 0,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "app\\views\\posts\\example.json"
+                },
+                {
+                    "blank": 9,
+                    "code": 74,
+                    "comment": 3,
+                    "filename": "app\\views\\posts\\postdetail.php"
+                },
+                {
+                    "blank": 14,
+                    "code": 74,
+                    "comment": 7,
+                    "filename": "app\\views\\posts\\posts.php"
+                },
+                {
+                    "blank": 8,
+                    "code": 79,
+                    "comment": 10,
+                    "filename": "app\\views\\users\\login.php"
+                },
+                {
+                    "blank": 6,
+                    "code": 56,
+                    "comment": 4,
+                    "filename": "app\\views\\users\\profile.php"
+                },
+                {
+                    "blank": 11,
+                    "code": 79,
+                    "comment": 3,
+                    "filename": "docs\\sql.txt"
+                },
+                {
+                    "filename": "Project specfications.odt",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "public\\.htaccess"
+                },
+                {
+                    "blank": 12,
+                    "code": 177,
+                    "comment": 7,
+                    "filename": "public\\css\\feed.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "public\\css\\icons\\badgecheck.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "public\\css\\icons\\downarrow.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "public\\css\\icons\\expthumbup.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "public\\css\\icons\\flag.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "public\\css\\icons\\refresh.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "public\\css\\icons\\reply.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "public\\css\\icons\\search.svg"
+                },
+                {
+                    "blank": 3,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "public\\css\\icons\\svg-defs.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "public\\css\\icons\\thumbdown.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "public\\css\\icons\\thumbup.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "public\\css\\icons\\trash.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "public\\css\\icons\\upload.svg"
+                },
+                {
+                    "filename": "public\\css\\images\\officeconfab.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\css\\images\\officeconfabflip.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\css\\images\\people.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\css\\images\\piggyback.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\css\\images\\tick-icon.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 14,
+                    "code": 110,
+                    "comment": 2,
+                    "filename": "public\\css\\login.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "public\\css\\profile.css"
+                },
+                {
+                    "blank": 3,
+                    "code": 102,
+                    "comment": 1,
+                    "filename": "public\\css\\style.css"
+                },
+                {
+                    "blank": 6,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "public\\hello.php"
+                },
+                {
+                    "blank": 8,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "public\\index.php"
+                },
+                {
+                    "blank": 3,
+                    "code": 11,
+                    "comment": 1,
+                    "filename": "public\\js\\helpers.js"
+                },
+                {
+                    "blank": 34,
+                    "code": 21,
+                    "comment": 139,
+                    "filename": "public\\js\\login.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 9,
+                    "comment": 2,
+                    "filename": "public\\js\\main.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 54,
+                    "comment": 9,
+                    "filename": "public\\js\\postdetail.js"
+                },
+                {
+                    "blank": 13,
+                    "code": 52,
+                    "comment": 12,
+                    "filename": "public\\js\\posts.js"
+                },
+                {
+                    "filename": "public\\uploads\\5f7da704bd8d77.09831238.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\uploads\\5f7da982efab42.61368323.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\uploads\\5f881bf16ee3f2.56365824.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\uploads\\anonymousprofile.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                }
+            ]
+        }
+    ]
+}

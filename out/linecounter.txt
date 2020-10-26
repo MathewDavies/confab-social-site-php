@@ -1,0 +1,87 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2020-10-15 11:16:51
+count workspace : c:\xampp\htdocs\confab
+total files : 64
+total code lines : 2009
+total comment lines : 553
+total blank lines : 402
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |            .js|            147|            163|             64|    7.3|
+   |           .php|           1287|            377|            295|     64|
+   |           .css|            426|             10|             29|     21|
+   |           .svg|             40|              0|              3|    2.0|
+   |               |             14|              0|              0|   0.70|
+   |           .txt|             79|              3|             11|    3.9|
+   |          .json|             16|              0|              0|   0.80|
+   -------------------------------------------------------------------------
+.htaccess, code is 5, comment is 0, blank is 0.
+app\.htaccess, code is 1, comment is 0, blank is 0.
+app\bootstrap.php, code is 6, comment is 3, blank is 5.
+app\config\config.php, code is 9, comment is 4, blank is 1.
+app\controllers\Pages.php, code is 15, comment is 0, blank is 7.
+app\controllers\Posts.php, code is 159, comment is 49, blank is 25.
+app\controllers\Users.php, code is 174, comment is 43, blank is 25.
+app\helpers\logout.php, code is 8, comment is 0, blank is 0.
+app\helpers\sessions.php, code is 9, comment is 0, blank is 4.
+app\libraries\Controller.php, code is 28, comment is 8, blank is 11.
+app\libraries\Core.php, code is 33, comment is 13, blank is 11.
+app\libraries\Database.php, code is 67, comment is 7, blank is 16.
+app\libraries\flashmessages.php, code is 184, comment is 194, blank is 64.
+app\models\Post.php, code is 106, comment is 10, blank is 24.
+app\models\User.php, code is 126, comment is 21, blank is 24.
+app\uploads\5f7482b88552d9.23492281.png, it is a binary file.
+app\uploads\5f74ba4b70f526.97269573.png, it is a binary file.
+app\uploads\5f74bb4e361111.73658412.png, it is a binary file.
+app\uploads\5f74bc019f1407.16829922.png, it is a binary file.
+app\uploads\5f74bd7dc13c18.81407232.png, it is a binary file.
+app\views\inc\footer.php, code is 4, comment is 0, blank is 4.
+app\views\inc\header.php, code is 27, comment is 0, blank is 9.
+app\views\inc\headerlogin.php, code is 19, comment is 0, blank is 9.
+app\views\pages\index.php, code is 3, comment is 0, blank is 5.
+app\views\posts\example.json, code is 16, comment is 0, blank is 0.
+app\views\posts\postdetail.php, code is 74, comment is 3, blank is 9.
+app\views\posts\posts.php, code is 74, comment is 7, blank is 14.
+app\views\users\login.php, code is 79, comment is 10, blank is 8.
+app\views\users\profile.php, code is 56, comment is 4, blank is 6.
+docs\sql.txt, code is 79, comment is 3, blank is 11.
+Project specfications.odt, it is a binary file.
+public\.htaccess, code is 8, comment is 0, blank is 0.
+public\css\feed.css, code is 177, comment is 7, blank is 12.
+public\css\icons\badgecheck.svg, code is 3, comment is 0, blank is 0.
+public\css\icons\downarrow.svg, code is 3, comment is 0, blank is 0.
+public\css\icons\expthumbup.svg, code is 3, comment is 0, blank is 0.
+public\css\icons\flag.svg, code is 3, comment is 0, blank is 0.
+public\css\icons\refresh.svg, code is 3, comment is 0, blank is 0.
+public\css\icons\reply.svg, code is 3, comment is 0, blank is 0.
+public\css\icons\search.svg, code is 3, comment is 0, blank is 0.
+public\css\icons\svg-defs.svg, code is 7, comment is 0, blank is 3.
+public\css\icons\thumbdown.svg, code is 3, comment is 0, blank is 0.
+public\css\icons\thumbup.svg, code is 3, comment is 0, blank is 0.
+public\css\icons\trash.svg, code is 3, comment is 0, blank is 0.
+public\css\icons\upload.svg, code is 3, comment is 0, blank is 0.
+public\css\images\officeconfab.jpg, it is a binary file.
+public\css\images\officeconfabflip.jpg, it is a binary file.
+public\css\images\people.jpg, it is a binary file.
+public\css\images\piggyback.jpg, it is a binary file.
+public\css\images\tick-icon.png, it is a binary file.
+public\css\login.css, code is 110, comment is 2, blank is 14.
+public\css\profile.css, code is 37, comment is 0, blank is 0.
+public\css\style.css, code is 102, comment is 1, blank is 3.
+public\hello.php, code is 24, comment is 0, blank is 6.
+public\index.php, code is 3, comment is 1, blank is 8.
+public\js\helpers.js, code is 11, comment is 1, blank is 3.
+public\js\login.js, code is 21, comment is 139, blank is 34.
+public\js\main.js, code is 9, comment is 2, blank is 5.
+public\js\postdetail.js, code is 54, comment is 9, blank is 9.
+public\js\posts.js, code is 52, comment is 12, blank is 13.
+public\uploads\5f7da704bd8d77.09831238.jpg, it is a binary file.
+public\uploads\5f7da982efab42.61368323.jpg, it is a binary file.
+public\uploads\5f881bf16ee3f2.56365824.jpg, it is a binary file.
+public\uploads\anonymousprofile.jpg, it is a binary file.
+===============================================================================
